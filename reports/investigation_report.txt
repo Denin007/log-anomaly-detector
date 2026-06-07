@@ -1,0 +1,392 @@
+======================================================================
+  LOG ANOMALY DETECTOR — INVESTIGATION REPORT
+  Author  : Denin Sajan
+  Generated: 2026-06-07 17:55:57
+======================================================================
+
+[1] EXECUTIVE SUMMARY
+    Total failed login attempts : 489
+    Total successful logins     : 0
+    Unique source IPs           : 47
+    Brute force alerts raised   : 39
+    Detection threshold         : 5 failures in 60s
+
+[2] BRUTE FORCE ALERTS (HIGH PRIORITY)
+
+    [1] ALERT — Brute Force Detected
+        Source IP    : 150.183.249.110
+        Total Fails  : 80
+        Burst (window): 50 attempts in 60s
+        First Seen   : Jul 10 16:01:43
+        Last Seen    : Jul 10 16:03:18
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [2] ALERT — Brute Force Detected
+        Source IP    : n219076184117.netvigator.com
+        Total Fails  : 23
+        Burst (window): 23 attempts in 60s
+        First Seen   : Jun 22 03:17:26
+        Last Seen    : Jun 22 03:18:22
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [3] ALERT — Brute Force Detected
+        Source IP    : 207.243.167.114
+        Total Fails  : 23
+        Burst (window): 13 attempts in 60s
+        First Seen   : Jul 26 07:02:27
+        Last Seen    : Jul 26 07:04:12
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [4] ALERT — Brute Force Detected
+        Source IP    : 60.30.224.116
+        Total Fails  : 20
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jun 30 19:03:00
+        Last Seen    : Jul 01 00:21:35
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [5] ALERT — Brute Force Detected
+        Source IP    : 195.129.24.210
+        Total Fails  : 15
+        Burst (window): 5 attempts in 60s
+        First Seen   : Jun 30 20:16:17
+        Last Seen    : Jul 01 10:56:44
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [6] ALERT — Brute Force Detected
+        Source IP    : 218.188.2.4
+        Total Fails  : 14
+        Burst (window): 12 attempts in 60s
+        First Seen   : Jun 14 15:16:01
+        Last Seen    : Jun 15 12:13:20
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [7] ALERT — Brute Force Detected
+        Source IP    : h64-187-1-131.gtconnect.net
+        Total Fails  : 13
+        Burst (window): 13 attempts in 60s
+        First Seen   : Jun 29 12:11:53
+        Last Seen    : Jun 29 12:12:10
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [8] ALERT — Brute Force Detected
+        Source IP    : 220.117.241.87
+        Total Fails  : 13
+        Burst (window): 13 attempts in 60s
+        First Seen   : Jul 04 19:15:48
+        Last Seen    : Jul 04 19:16:01
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [9] ALERT — Brute Force Detected
+        Source IP    : 220-135-151-1.hinet-ip.hinet.net
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jun 15 02:04:59
+        Last Seen    : Jun 15 02:04:59
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [10] ALERT — Brute Force Detected
+        Source IP    : 061092085098.ctinets.com
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jun 15 14:53:32
+        Last Seen    : Jun 15 14:53:36
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [11] ALERT — Brute Force Detected
+        Source IP    : adsl-70-242-75-179.dsl.ksc2mo.swbell.net
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jun 18 01:30:59
+        Last Seen    : Jun 18 01:30:59
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [12] ALERT — Brute Force Detected
+        Source IP    : 65.166.159.14
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jun 20 09:20:05
+        Last Seen    : Jun 20 09:20:08
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [13] ALERT — Brute Force Detected
+        Source IP    : ip-216-69-169-168.ip.secureserver.net
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jun 22 04:30:55
+        Last Seen    : Jun 22 04:30:56
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [14] ALERT — Brute Force Detected
+        Source IP    : 209.152.168.249
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jun 23 01:41:29
+        Last Seen    : Jun 23 01:41:32
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [15] ALERT — Brute Force Detected
+        Source IP    : massive.merukuru.org
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jun 25 04:41:49
+        Last Seen    : Jun 25 04:41:51
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [16] ALERT — Brute Force Detected
+        Source IP    : 62-192-102-94.dsl.easynet.nl
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jun 28 20:58:46
+        Last Seen    : Jun 28 20:58:55
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [17] ALERT — Brute Force Detected
+        Source IP    : csnsu.nsuok.edu
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jun 29 10:08:19
+        Last Seen    : Jun 29 10:08:20
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [18] ALERT — Brute Force Detected
+        Source IP    : zummit.com
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jul 02 04:15:33
+        Last Seen    : Jul 02 04:15:43
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [19] ALERT — Brute Force Detected
+        Source IP    : p15105218.pureserver.info
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jul 09 19:34:06
+        Last Seen    : Jul 09 19:34:14
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [20] ALERT — Brute Force Detected
+        Source IP    : 211.214.161.141
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jul 10 16:33:01
+        Last Seen    : Jul 10 16:33:05
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [21] ALERT — Brute Force Detected
+        Source IP    : 82.77.200.128
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jul 11 03:46:14
+        Last Seen    : Jul 11 03:46:19
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [22] ALERT — Brute Force Detected
+        Source IP    : 211.137.205.253
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jul 11 17:58:16
+        Last Seen    : Jul 11 17:58:23
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [23] ALERT — Brute Force Detected
+        Source IP    : 68.143.156.89.nw.nuvox.net
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jul 12 06:09:43
+        Last Seen    : Jul 12 06:09:45
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [24] ALERT — Brute Force Detected
+        Source IP    : c51471f2c.cable.wanadoo.nl
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jul 15 01:03:48
+        Last Seen    : Jul 15 01:03:50
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [25] ALERT — Brute Force Detected
+        Source IP    : 211-76-104-65.ebix.net.tw
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jul 18 23:01:25
+        Last Seen    : Jul 18 23:01:27
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [26] ALERT — Brute Force Detected
+        Source IP    : 202.181.236.180
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jul 19 07:35:41
+        Last Seen    : Jul 19 07:35:41
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [27] ALERT — Brute Force Detected
+        Source IP    : 211.9.58.217
+        Total Fails  : 10
+        Burst (window): 10 attempts in 60s
+        First Seen   : Jul 23 20:04:41
+        Last Seen    : Jul 23 20:04:42
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [28] ALERT — Brute Force Detected
+        Source IP    : 218.22.3.51
+        Total Fails  : 9
+        Burst (window): 9 attempts in 60s
+        First Seen   : Jun 23 23:30:03
+        Last Seen    : Jun 23 23:30:05
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [29] ALERT — Brute Force Detected
+        Source IP    : 61.53.154.93
+        Total Fails  : 9
+        Burst (window): 9 attempts in 60s
+        First Seen   : Jun 28 08:10:24
+        Last Seen    : Jun 28 08:10:30
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [30] ALERT — Brute Force Detected
+        Source IP    : biblioteka.wsi.edu.pl
+        Total Fails  : 8
+        Burst (window): 8 attempts in 60s
+        First Seen   : Jun 30 12:48:38
+        Last Seen    : Jun 30 12:48:41
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [31] ALERT — Brute Force Detected
+        Source IP    : 202-132-40-29.adsl.ttn.net
+        Total Fails  : 8
+        Burst (window): 5 attempts in 60s
+        First Seen   : Jul 14 14:59:42
+        Last Seen    : Jul 14 15:01:16
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [32] ALERT — Brute Force Detected
+        Source IP    : 217.60.212.66
+        Total Fails  : 6
+        Burst (window): 6 attempts in 60s
+        First Seen   : Jun 21 08:56:36
+        Last Seen    : Jun 21 08:56:36
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [33] ALERT — Brute Force Detected
+        Source IP    : d211-116-254-214.rev.krline.net
+        Total Fails  : 5
+        Burst (window): 5 attempts in 60s
+        First Seen   : Jun 15 20:05:31
+        Last Seen    : Jun 15 20:05:31
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [34] ALERT — Brute Force Detected
+        Source IP    : troi.bluesky-technologies.com
+        Total Fails  : 5
+        Burst (window): 5 attempts in 60s
+        First Seen   : Jun 27 08:05:37
+        Last Seen    : Jun 27 08:05:39
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [35] ALERT — Brute Force Detected
+        Source IP    : 211.115.206.155
+        Total Fails  : 5
+        Burst (window): 5 attempts in 60s
+        First Seen   : Jun 28 21:42:46
+        Last Seen    : Jun 28 21:42:46
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [36] ALERT — Brute Force Detected
+        Source IP    : 210.229.150.228
+        Total Fails  : 5
+        Burst (window): 5 attempts in 60s
+        First Seen   : Jul 05 13:36:28
+        Last Seen    : Jul 05 13:36:37
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [37] ALERT — Brute Force Detected
+        Source IP    : 218.16.122.48
+        Total Fails  : 5
+        Burst (window): 5 attempts in 60s
+        First Seen   : Jul 06 02:22:31
+        Last Seen    : Jul 06 02:22:33
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [38] ALERT — Brute Force Detected
+        Source IP    : 218.55.234.102
+        Total Fails  : 5
+        Burst (window): 5 attempts in 60s
+        First Seen   : Jul 20 23:37:40
+        Last Seen    : Jul 20 23:37:46
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+    [39] ALERT — Brute Force Detected
+        Source IP    : 203.251.225.101
+        Total Fails  : 5
+        Burst (window): 5 attempts in 60s
+        First Seen   : Jul 24 08:31:57
+        Last Seen    : Jul 24 08:31:59
+        Severity     : HIGH
+        Action       : Escalate to SOC L2 — recommend IP block
+
+[3] TOP 10 OFFENDING IPs
+    150.183.249.110                                  80 failed attempts
+    n219076184117.netvigator.com                     23 failed attempts
+    207.243.167.114                                  23 failed attempts
+    60.30.224.116                                    20 failed attempts
+    195.129.24.210                                   15 failed attempts
+    218.188.2.4                                      14 failed attempts
+    h64-187-1-131.gtconnect.net                      13 failed attempts
+    220.117.241.87                                   13 failed attempts
+    220-135-151-1.hinet-ip.hinet.net                 10 failed attempts
+    061092085098.ctinets.com                         10 failed attempts
+
+[4] SUCCESSFUL LOGINS LOG
+    No successful logins found in log.
+
+[5] RECOMMENDATIONS
+    - Block all IPs flagged in Section 2 at the firewall level
+    - Enable fail2ban or equivalent intrusion prevention
+    - Disable root SSH login (PermitRootLogin no)
+    - Enforce SSH key-based authentication
+    - Review successful logins for post-compromise activity
+    - Escalate confirmed incidents to Incident Response team
+
+======================================================================
+  END OF REPORT
+======================================================================
