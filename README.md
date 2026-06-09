@@ -52,6 +52,14 @@ The tool uses a sliding window algorithm — for each IP address, it scans all r
 - Real dataset analysis: 489 events, 47 IPs, 39 alerts generated
 - Security recommendations aligned to NIST and CIS controls
 
+## Screenshots
+
+### Executive Summary
+![Executive Summary](screenshots/Screenshot_2026-06-09_21-33-22.png)
+
+### Investigation Report Output
+![Investigation Report](screenshots/Screenshot_2026-06-09_21-34-24.png)
+
 ## Author
 
 Denin Sajan — MSc Cyber Security
